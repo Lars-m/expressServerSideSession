@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <br/><br/>
+    <ul style="color:mediumslateblue">
+      <% jokes.forEach(function(joke) { %>
+        <li><%= joke %></li>
+      <% }); %> 
+    </ul>
+    <br/>
+    <a href="/">Back</a>
+  </body>
+</html>
